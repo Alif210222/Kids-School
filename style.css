@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: quicksand;
+}
+
+header,main{
+    margin: 10px 120px;
+}
+
+/* navber style */
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:160px;
+    margin-top: 25px;
+}
+.nav-logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.scl-name{
+    font-size: 2em;
+    font-weight: bold;
+    color:black;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap:36px;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.menu-1{
+   color:orange ; 
+}
+.menu-2{
+  color: skyblue;
+}
+.menu-3{
+   color:#05D4DF;
+}
+.menu-4{
+   color:#5D58EF;
+}
+
+.nav-btn button{
+    padding:15px 45px;
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    border:2px solid orange;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.2s;
+    box-shadow: 4px 0px 10px orange;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    opacity:.9 ;
+   
+}
+
+.bar{
+    display:none ;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+
+   
+}
+.hr-line{
+    display: none;
+    background-color: orange;
+    padding: 1px;
+}
+
+/* banner style */
+
+
+.banner-container{
+        /* border:2px solid black;  */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:52px;
+        margin-top:30px ;
+}
+
+
+.banner-content{
+     gap:24px;
+} 
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.title-1{
+    color:orange;
+}
+.title-2{
+    color:skyblue;
+}
+
+.banner-description{
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding:10px 20px;
+    border-radius: 12px;
+}
+.banner-btn:hover{
+    opacity: 0.8;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* responsive style */
+
+@media screen and (max-width:576px) {
+    header,main{
+        margin:17px
+    } 
+    
+     .nav-menu,.nav-btn{
+        display: none;
+     }
+     .bar{
+        display: block;
+        margin-right: 10px;
+     }
+     .hr-line{
+        margin-top: 15px;
+
+        display: block;
+     }
+
+    .banner-container{
+        flex-direction: column-reverse;
+        padding:10px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    
+}
