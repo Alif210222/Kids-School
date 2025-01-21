@@ -62,6 +62,7 @@ header,main{
     transition: 0.2s;
     box-shadow: 4px 0px 10px orange;
     cursor: pointer;
+    font-family:quicksand ;
 }
 .nav-btn button:hover{
     opacity:.9 ;
@@ -117,6 +118,7 @@ header,main{
 }
 
 .banner-btn{
+    font-family:quicksand ;
     font-size: 1.1rem;
     font-weight: bold;
     background-color: black;
@@ -241,7 +243,170 @@ header,main{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 60px;
 }
+
+/* story container style */
+
+.story-container{
+     /* margin:60px ;  */
+     /* background-image: url(assets/bg.png);
+     background:linear-gradient(#FFFFFF,#f8d392) ; */
+     background-image:url(assets/bg.png) ;
+     background-image: linear-gradient(to bottom, #FFFFFF, #f9d79e), 
+                   url(assets/bg.png) ;
+
+
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: top; /* Centers the image */
+  background-repeat: ; /* Avoids repeating the image */
+
+
+}
+
+
+
+
+
+.story-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.story-box-container{
+    margin-top: 80px;
+}
+.story-box-1{
+    /* border: 2px solid black; */
+    max-width:540px ;
+    /* border:none ; */
+    border-radius:16px ;
+    background-color: #FFFFFF;
+}
+
+.story-button{
+    margin-top: -30px;
+}
+.story-box-1 h2{
+     font-size: 1.5rem;
+     font-weight:bold;
+     color: #000000;
+     margin: 50px 38px;  
+}
+.story-box-1 img{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.story-box-1 p{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#666666;
+    margin: 25px 38px;
+}
+.story-btn{
+    margin-left: 38px;
+    font-size: medium;
+    color:#FFFFFF;
+    background-color: #3CD8E8;
+    padding: 15px 22px;
+    border:none;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-family:quicksand ;
+   
+    
+}
+
+.story-box-2{
+     /* border:2px solid black; */
+     
+}
+.box-2-child-1{
+    /* border:2px solid orange; */
+    border-radius: 16px;
+    max-width: 290px;
+    background-color: #FFFFFF;
+}
+.box-2-child-1 img{
+     width: 100%;
+     border-radius: 8px;
+
+}
+.child-btn{
+    margin-left: 38px;
+   
+    color: #FFFFFF;
+    border-radius: 50px;
+    border:none;
+    padding: 11px 20px;
+    background-color: #95B226;
+    font-size: 0.8rem;
+    font-weight: medium;
+
+}
+.c-btn-2{
+    background-color: #5D58F0;
+    font-family:quicksand ;
+}
+.c-btn-3{
+     background-color: orange;
+     font-family:quicksand ;
+}
+.c-btn-4{
+     background-color: red;
+     font-family:quicksand ;
+}
+
+
+
+.child-content h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 33px;
+    margin-left: 37px;
+    margin-top: 38px;
+}
+.child-button{
+    margin-top: -23px;
+}
+
+.story-box-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 650px;
+    gap:19px;
+}
+.story-box-container{
+    display: flex;
+    justify-content: center;
+    gap:19px;
+
+}
+.view-btn{
+    font-family:quicksand ;
+    background-color: black;
+    padding:10px 35px;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    font-size: 1rem;
+    
+   
+
+}
+.btn-div{
+    margin-top: 80px;
+    margin-right: 20px;
+    padding-bottom: 60px;
+    display:flex;
+    justify-content: center;
+
+}
+
 
 
 
@@ -278,6 +443,11 @@ header,main{
         font-size: 2rem;
     }
 
+    .cur-hading{
+        font-size: 2rem;
+    }
+
+
     .box-container{
         flex-direction: column;
     }
@@ -285,4 +455,37 @@ header,main{
     .arrow{
         display: none;
     }
+
+
+    .story-box-container{
+        margin: 17px;
+    }
+    .story-box-container{
+        flex-direction: column;
+    }
+
+    .story-title{
+        font-size: 2rem;
+    }
+
+    .story-box-1{
+        display: none;
+    }
+
+    .story-box-2{
+        margin-top:20px ;
+        
+    }
+    
+
+    .btn-div{
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+    .child-btn{
+        margin-left: 20px;
+        padding:8px 15px;
+    }
+
+
 }
