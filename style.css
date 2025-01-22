@@ -108,8 +108,8 @@ header,main{
         display:flex;
         justify-content: center;
         align-items: center;
-        gap:52px;
-        margin-top:30px ;
+        gap:72px;
+        margin-top:20px ;
 }
 
 
@@ -117,7 +117,7 @@ header,main{
      gap:24px;
 } 
 .banner-title{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 24px;
 }
@@ -130,7 +130,7 @@ header,main{
 
 .banner-description{
     font-size: 1.25rem;
-    max-width: 600px;
+    max-width: 670px;
     margin-bottom: 24px;
     line-height: 30px;
 }
@@ -617,3 +617,5 @@ header,main{
     }
 
 }
+
+
