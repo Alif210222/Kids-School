@@ -132,6 +132,7 @@ header,main{
     font-size: 1.25rem;
     max-width: 600px;
     margin-bottom: 24px;
+    line-height: 30px;
 }
 
 .banner-btn{
