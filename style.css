@@ -21,6 +21,7 @@ header,main{
     display:flex;
     justify-content: center;
     align-items: center;
+    gap:10px;
 }
 .scl-name{
     font-size: 2em;
@@ -533,6 +534,9 @@ header,main{
     
      .nav-menu,.nav-btn{
         display: none;
+     }
+     .scl-name{
+        font-size: 1.8rem;
      }
      .bar{
         display: block;
